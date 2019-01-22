@@ -45,6 +45,10 @@
 			"}"
 		],
 	},
+	"Connect Redux": {
+		"prefix": "connect",
+		"body": "import { connect } from 'react-redux';",
+	},
 	"Console Log": {
 		"prefix": "cl",
 		"body": "console.log($1)",
