@@ -16,7 +16,7 @@
 	// 	"description": "Log output to console"
 	// }
 	"React Native Class": {
-		"prefix": "reactclass",
+		"prefix": "reactnativeclass",
 		"body": [
 			"import React, { Component } from 'react';",
 			"import { View, Text } from 'react-native';",
@@ -30,6 +30,20 @@
 			"}"
 		],
 		"description": "React Native Class"
+	},
+	"React Class": {
+		"prefix": "reactclass",
+		"body": [
+			"import React, { Component } from 'react';",
+			"",
+			"export default class ${1:ClassName} extends Component {",
+			"  render() {",
+			"    return (",
+			"      <div>Hello World</div>",
+			"    );",
+			"  }",
+			"}"
+		],
 	},
 	"Console Log": {
 		"prefix": "cl",
