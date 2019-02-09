@@ -68,5 +68,13 @@
 		"prefix": "nomaxlen",
 		"body": "// eslint-disable-line max-len",
 		"description": "Adds an eslint comment to disable the max length rule."
+	},
+	"mapStateToProps": {
+		"prefix": "maps",
+		"body": [
+			"const mapStateToProps = state => {",
+			"  return {}",
+			"}"
+		],
 	}
 }
